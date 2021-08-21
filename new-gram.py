@@ -116,6 +116,13 @@ def hav():
         wget.download("")
         os.system("termux-media-player play song.mp3 ;clear")
         pass
+    if song=='0':
+        print("\n")
+        os.system("clear")
+        pass
+    else:
+        hav()
+        
     
 print(logo1)
 ID = input(" \n[=] ID Telegram  :")
@@ -522,5 +529,3 @@ def lwla():
 
 
 lwla()
-hav()
-
