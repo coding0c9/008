@@ -96,6 +96,7 @@ fafa = '''
 | 1 > Kurdish
 | 2 > Persian
 | 3 > English
+| 0 > Namawet
 -------------------------------------------
 '''
 def hav():
@@ -105,16 +106,16 @@ def hav():
     song = input("Gorani Hallbzhera : ")
     
     if song=='1':
-        wget.download("")
-        os.system("termux-media-player play song.mp3 ;clear")
+        wget.download("https://raw.githubusercontent.com/w0llf/song/main/sana.mp3")
+        os.system("termux-media-player play sana.mp3 ;clear")
         pass
     elif song=='2':
-        wget.download("")
+        wget.download("https://raw.githubusercontent.com/w0llf/song/main/Morteza.mp3")
         os.system("termux-media-player play song.mp3 ;clear")
         pass
     elif song=='3':
-        wget.download("")
-        os.system("termux-media-player play song.mp3 ;clear")
+        wget.download("https://raw.githubusercontent.com/w0llf/song/main/alec.mp3")
+        os.system("termux-media-player play alec.mp3 ;clear")
         pass
     elif song=='0':
         print("\n")
