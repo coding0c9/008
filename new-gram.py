@@ -113,7 +113,7 @@ def lwla():
         os.system(oss)
 
         def sp():
-            for lol in range(1000):
+            for lol in range(2000):
                 s = random.randint(1000000, 9999999)
                 ss = ("+964770" + str(s) + ":0770" + str(s))
                 with open("combo.txt", "a") as bo:
@@ -164,7 +164,7 @@ def lwla():
                     bad += 1
                     tesed = (bad) + (hits) + (checkpoint)
                     print(
-                        f' ' + W + ' ' + W + '[' + wd + 'T' + W + ']' + wd + 'otal' + W + ' : ' + wd + '12501\n    ' + W + '[' + wd + '^' + W + '] ' + wd + 'Tested ' + W + ': ' + wd + str(
+                        f' ' + W + ' ' + W + '[' + wd + 'T' + W + ']' + wd + 'otal' + W + ' : ' + wd + '10000\n    ' + W + '[' + wd + '^' + W + '] ' + wd + 'Tested ' + W + ': ' + wd + str(
                             tesed) + W + '\n    [' + G + '+' + W + ']' + G + ' Good ' + W + ':' + G + ' ' + str(
                             hits) + ' \n ' + W + '   [' + R + '-' + W + ']' + R + ' Checkpoint ' + W + ':' + R + ' ' + str(
                             checkpoint) + ' \n ' + W + '   [' + wd + '-' + W + ']' + wd + ' Bad ' + W + ':' + wd + ' ' + str(
@@ -179,7 +179,7 @@ def lwla():
                     import time
                     tesed = (bad) + (hits) + (checkpoint)
                     print(
-                        f' ' + W + ' ' + W + '[' + wd + 'T' + W + ']' + wd + 'otal' + W + ' : ' + wd + '12501\n    ' + W + '[' + wd + '^' + W + '] ' + wd + 'Tested ' + W + ': ' + wd + str(
+                        f' ' + W + ' ' + W + '[' + wd + 'T' + W + ']' + wd + 'otal' + W + ' : ' + wd + '10000\n    ' + W + '[' + wd + '^' + W + '] ' + wd + 'Tested ' + W + ': ' + wd + str(
                             tesed) + W + '\n    [' + G + '+' + W + ']' + G + ' Good ' + W + ':' + G + ' ' + str(
                             hits) + ' \n ' + W + '   [' + R + '-' + W + ']' + R + ' Checkpoint ' + W + ':' + R + ' ' + str(
                             checkpoint) + ' \n ' + W + '   [' + wd + '-' + W + ']' + wd + ' Bad ' + W + ':' + wd + ' ' + str(
@@ -194,7 +194,7 @@ def lwla():
                     hits += 1
                     tesed = (bad) + (hits) + (checkpoint)
                     print(
-                        f' ' + W + ' ' + W + '[' + wd + 'T' + W + ']' + wd + 'otal' + W + ' : ' + wd + '12501\n    ' + W + '[' + wd + '^' + W + '] ' + wd + 'Tested ' + W + ': ' + wd + str(
+                        f' ' + W + ' ' + W + '[' + wd + 'T' + W + ']' + wd + 'otal' + W + ' : ' + wd + '10000\n    ' + W + '[' + wd + '^' + W + '] ' + wd + 'Tested ' + W + ': ' + wd + str(
                             tesed) + W + '\n    [' + G + '+' + W + ']' + G + ' Good ' + W + ':' + G + ' ' + str(
                             hits) + ' \n ' + W + '   [' + R + '-' + W + ']' + R + ' Checkpoint ' + W + ':' + R + ' ' + str(
                             checkpoint) + ' \n ' + W + '   [' + wd + '-' + W + ']' + wd + ' Bad ' + W + ':' + wd + ' ' + str(
@@ -262,7 +262,7 @@ def lwla():
                     tesed = (bad) + (hits) + (checkpoint)
                     boooomm = ("CHK: " + user + ":" + pasw)
                     print(
-                        f' ' + W + ' ' + W + '[' + wd + 'T' + W + ']' + wd + 'otal' + W + ' : ' + wd + '12501\n    ' + W + '[' + wd + '^' + W + '] ' + wd + 'Tested ' + W + ': ' + wd + str(
+                        f' ' + W + ' ' + W + '[' + wd + 'T' + W + ']' + wd + 'otal' + W + ' : ' + wd + '10000\n    ' + W + '[' + wd + '^' + W + '] ' + wd + 'Tested ' + W + ': ' + wd + str(
                             tesed) + W + '\n    [' + G + '+' + W + ']' + G + ' Good ' + W + ':' + G + ' ' + str(
                             hits) + ' \n ' + W + '   [' + R + '-' + W + ']' + R + ' Checkpoint ' + W + ':' + R + ' ' + str(
                             checkpoint) + ' \n ' + W + '   [' + wd + '-' + W + ']' + wd + ' Bad ' + W + ':' + wd + ' ' + str(
@@ -283,7 +283,7 @@ def lwla():
                     error += 1
                     tesed = (bad) + (hits) + (checkpoint)
                     print(
-                        f' ' + W + ' ' + W + '[' + wd + 'T' + W + ']' + wd + 'otal' + W + ' : ' + wd + '12501\n    ' + W + '[' + wd + '^' + W + '] ' + wd + 'Tested ' + W + ': ' + wd + str(
+                        f' ' + W + ' ' + W + '[' + wd + 'T' + W + ']' + wd + 'otal' + W + ' : ' + wd + '10000\n    ' + W + '[' + wd + '^' + W + '] ' + wd + 'Tested ' + W + ': ' + wd + str(
                             tesed) + W + '\n    [' + G + '+' + W + ']' + G + ' Good ' + W + ':' + G + ' ' + str(
                             hits) + ' \n ' + W + '   [' + R + '-' + W + ']' + R + ' Checkpoint ' + W + ':' + R + ' ' + str(
                             checkpoint) + ' \n ' + W + '   [' + wd + '-' + W + ']' + wd + ' Bad ' + W + ':' + wd + ' ' + str(
@@ -297,7 +297,7 @@ def lwla():
                 kill += 1
                 tesed = (bad) + (hits) + (checkpoint)
                 print(
-                    f' ' + W + ' ' + W + '[' + wd + 'T' + W + ']' + wd + 'otal' + W + ' : ' + wd + '12501\n    ' + W + '[' + wd + '^' + W + '] ' + wd + 'Tested ' + W + ': ' + wd + str(
+                    f' ' + W + ' ' + W + '[' + wd + 'T' + W + ']' + wd + 'otal' + W + ' : ' + wd + '10000\n    ' + W + '[' + wd + '^' + W + '] ' + wd + 'Tested ' + W + ': ' + wd + str(
                         tesed) + W + '\n    [' + G + '+' + W + ']' + G + ' Good ' + W + ':' + G + ' ' + str(
                         hits) + ' \n ' + W + '   [' + R + '-' + W + ']' + R + ' Checkpoint ' + W + ':' + R + ' ' + str(
                         checkpoint) + ' \n ' + W + '   [' + wd + '-' + W + ']' + wd + ' Bad ' + W + ':' + wd + ' ' + str(
@@ -370,7 +370,7 @@ def lwla():
                     hits += 1
                     tesed = (bad) + (hits) + (checkpoint)
                     print(
-                        f' ' + W + ' ' + W + '[' + wd + 'T' + W + ']' + wd + 'otal' + W + ' : ' + wd + '12501\n    ' + W + '[' + wd + '^' + W + '] ' + wd + 'Tested ' + W + ': ' + wd + str(
+                        f' ' + W + ' ' + W + '[' + wd + 'T' + W + ']' + wd + 'otal' + W + ' : ' + wd + '10000\n    ' + W + '[' + wd + '^' + W + '] ' + wd + 'Tested ' + W + ': ' + wd + str(
                             tesed) + W + '\n    [' + G + '+' + W + ']' + G + ' Good ' + W + ':' + G + ' ' + str(
                             hits) + ' \n ' + W + '   [' + R + '-' + W + ']' + R + ' Checkpoint ' + W + ':' + R + ' ' + str(
                             checkpoint) + ' \n ' + W + '   [' + wd + '-' + W + ']' + wd + ' Bad ' + W + ':' + wd + ' ' + str(
