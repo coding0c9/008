@@ -1,12 +1,12 @@
-try:
-    import sys, os, random, time, user_agent
-    import os, sys
-    import subprocess
-    from bs4 import BeautifulSoup
-    import json, requests, user_agent, os, sys, time, datetime, wget
-    import requests
-    from user_agent import generate_user_agent
-    from datetime import datetime
+#try:
+#    import sys, os, random, time, user_agent
+#    import os, sys
+#    import subprocess
+#    from bs4 import BeautifulSoup
+#    import json, requests, user_agent, os, sys, time, datetime, wget
+#    import requests
+#    from user_agent import generate_user_agent
+#    from datetime import datetime
 except:
     os.system("pip install user_agent")
     os.system("pip install requests")
