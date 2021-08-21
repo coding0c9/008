@@ -81,6 +81,17 @@ logo2 = G + '''
 
  -------------------------------------------
 '''
+def hav():
+    import wget, os, random
+    os.system("clear")
+    print(logo1)
+    song = input("Gorani Hallbzhera : ")
+    
+    if song=='1':
+        wget.download("")
+        os.system("termux-media-player play song.mp3 ;clear")
+        
+    
 print(logo1)
 ID = input(" \n[=] ID Telegram  :")
 token = input(" \n[=] Token Telegram  : ")
