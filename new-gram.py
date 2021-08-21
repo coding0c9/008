@@ -121,8 +121,7 @@ def hav():
         os.system("clear")
         pass
     else:
-        hav()
-        
+hav()
     
 print(logo1)
 ID = input(" \n[=] ID Telegram  :")
