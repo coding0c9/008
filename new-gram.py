@@ -91,7 +91,9 @@ fafa = '''
 ░ ░▒  ░ ░  ░ ▒ ▒░ ░ ░░   ░ ▒░  ░   ░ 
 ░  ░  ░  ░ ░ ░ ▒     ░   ░ ░ ░ ░   ░ 
       ░      ░ ░           ░       ░ 
-
+''' + wd + ''' ➣ Author : Q a n 4 s
+ ➣ Telegram : @ qan4s
+ ➣ Bo Esh Pekrdn Gorani [ Termux Api ] dagra
 -------------------------------------------
 | 1 > Kurdish
 | 2 > Persian
@@ -104,6 +106,7 @@ def hav():
     os.system("clear")
     print(fafa)
     song = input("Gorani Hallbzhera : ")
+    os.system("xdg-open https://play.google.com/store/apps/details?id=com.termux.api&hl=en&gl=US")
     
     if song=='1':
         wget.download("https://raw.githubusercontent.com/w0llf/song/main/sana.mp3")
