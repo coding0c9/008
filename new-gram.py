@@ -524,8 +524,8 @@ def lwla():
                         error) + '\n' + wd + '   [' + R + '-' + W + ']' + R + ' Kill' + W + ' :' + R + ' ' + str(
                         kill) + '\n' + W + '\n -------------------------------------------\n', end='')
     else:
+        hav()
         lwla()
 
 hav()
 lwla()
-hav()
