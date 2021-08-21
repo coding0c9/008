@@ -108,15 +108,15 @@ def hav():
         wget.download("")
         os.system("termux-media-player play song.mp3 ;clear")
         pass
-    if song=='2':
+    elif song=='2':
         wget.download("")
         os.system("termux-media-player play song.mp3 ;clear")
         pass
-    if song=='3':
+    elif song=='3':
         wget.download("")
         os.system("termux-media-player play song.mp3 ;clear")
         pass
-    if song=='0':
+    elif song=='0':
         print("\n")
         os.system("clear")
         pass
