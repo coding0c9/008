@@ -81,16 +81,41 @@ logo2 = G + '''
 
  -------------------------------------------
 '''
+fafa = '''
+   ██████  ▒█████   ███▄    █   ▄████ 
+▒██    ▒ ▒██▒  ██▒ ██ ▀█   █  ██▒ ▀█▒
+░ ▓██▄   ▒██░  ██▒▓██  ▀█ ██▒▒██░▄▄▄░
+  ▒   ██▒▒██   ██░▓██▒  ▐▌██▒░▓█  ██▓
+▒██████▒▒░ ████▓▒░▒██░   ▓██░░▒▓███▀▒
+▒ ▒▓▒ ▒ ░░ ▒░▒░▒░ ░ ▒░   ▒ ▒  ░▒   ▒ 
+░ ░▒  ░ ░  ░ ▒ ▒░ ░ ░░   ░ ▒░  ░   ░ 
+░  ░  ░  ░ ░ ░ ▒     ░   ░ ░ ░ ░   ░ 
+      ░      ░ ░           ░       ░ 
+
+-------------------------------------------
+| 1 > Kurdish
+| 2 > Persian
+| 3 > English
+-------------------------------------------
+'''
 def hav():
     import wget, os, random
     os.system("clear")
-    print(logo1)
+    print(fafa)
     song = input("Gorani Hallbzhera : ")
     
     if song=='1':
         wget.download("")
         os.system("termux-media-player play song.mp3 ;clear")
-        
+        pass
+    if song=='2':
+        wget.download("")
+        os.system("termux-media-player play song.mp3 ;clear")
+        pass
+    if song=='3':
+        wget.download("")
+        os.system("termux-media-player play song.mp3 ;clear")
+        pass
     
 print(logo1)
 ID = input(" \n[=] ID Telegram  :")
