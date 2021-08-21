@@ -132,7 +132,7 @@ def hav():
 
 def lwla():
     print(logo1)
-    ID = input(" \n[=] ID Telegram  :")
+    ID = input(" \n[=] ID Telegram  : ")
     token = input(" \n[=] Token Telegram  : ")
     wd = "\033[90;1m"
     GL = "\033[96;1m"
