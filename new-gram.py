@@ -66,8 +66,7 @@ def log():
     if password == "":
         sys.exit()
     if password in str(re.text):
-        print(" FIRST STEP Is Done. Logged in Successfully as ")
-        print("\033[1;93mPlease Wait 5 Minutes, All Packages Are Checking.....")
+        print(" Tawawa Sherhakam")
     else:
         print(" Password Hallaya ")
         os.system('xdg-open https://t.me/qan4s')
