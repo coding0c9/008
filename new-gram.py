@@ -59,4 +59,4 @@ logo1 = G + '''
  ➣ Telegram : @ qan4s
 ''' + W + ''' -------------------------------------------'''
 print(logo1)
-print("|\033[92m ➣\033[97m Chawarey Update Bn ...")
+print("\n |\033[92m ➣\033[97m Chawarey Update Bn ...\n\n")
