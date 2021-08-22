@@ -61,7 +61,7 @@ def log():
     print(logo)
     print(" Bo Daxl Bun >> SCRIPT << Password Leda ")
     print(' Bo Zanini Password Nama Bnern @qan4s')
-    print('~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~')
+    print('\n~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\n')
     password = input(' Password Bnusa Dldl  : ')
     if password == "":
         sys.exit()
